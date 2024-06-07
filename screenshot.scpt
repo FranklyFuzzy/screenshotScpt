@@ -1,10 +1,10 @@
 set baseName to "screenshot"
 
 #define where you want the screenshots to save to
-set saveFolder to ("path/to/folder/") as text
+set saveFolder to ("$path/to/folder/$") as text
 
-#put in the ApplicationName you want the scirpt to focus on if running in fullscreen
-set targetAppName to "ApplicationName"
+#put in the Application Name you want the scirpt to focus on if running in fullscreen
+set targetAppName to "$Application Name$"
 
 #set delay to allow page to render
 set myDelay to 5
